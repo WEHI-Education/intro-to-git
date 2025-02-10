@@ -7,35 +7,35 @@
 # mb: Melbourne Bioinformatics
 # mig: Melbourne Integrative Genomics
 # wehi: Walter and Eliza Hall Institute
-carpentry: 'uom'
+carpentry: 'wehi'
 
 # Alt-text description of the lesson.
-carpentry_description: 'Lesson Description'
+carpentry_description: 'Learn the basics of version control, how to track changes in a repository and how to collaborate using Git.'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Version Control with Git'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2025-02-10
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson' # FIXME
+keywords: 'git, software, data, lesson'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'pre-alpha'
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/melbournebioinformatics/workbench-template-md' # FIXME
+source: 'https://github.com/melbournebioinformatics/intro-to-git'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'fixme@fixme.org' # FIXME
+contact: 'vinicius.salazar@unimelb.edu.au'
 
 # Navigation ------------------------------------------------
 #
@@ -65,9 +65,11 @@ episodes:
 
 # Information for Learners
 learners: 
-
+- setup.md
+ 
 # Information for Instructors
 instructors: 
+- instructor-notes.md
 
 # Learner Profiles
 profiles: 
@@ -79,5 +81,5 @@ profiles:
 
 # This is the UoM varnish, which is a custom version of the Carpentries varnish
 varnish: 'melbournebioinformatics/uom-varnish@main'
-url: 'melbournebioinformatics.github.io/uom-varnish'
+url: 'melbournebioinformatics.github.io/intro-to-git'
 
